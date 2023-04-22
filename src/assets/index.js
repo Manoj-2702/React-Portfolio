@@ -50,6 +50,7 @@ import commu from "./commu.png";
 import colab from "./colab.png";
 import workholi from "./workholi.png";
 import selfmoti from "./selfmoti.png";
+import deepak from "./deepak.png";
 
 export {
   logo,
@@ -65,6 +66,7 @@ export {
   tensorflow,
   music,
   github,
+  deepak,
   inpaint,
   flutter,
   menu,

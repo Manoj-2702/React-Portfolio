@@ -29,6 +29,8 @@ const Ball = (props) => {
           position={[0, 0, 1]}
           map={decal}
           rotation={[2 * Math.PI, 0, 6.25]}
+          flatShading
+          scale={1}
         />
       </mesh>
     </Float>
@@ -37,7 +39,11 @@ const Ball = (props) => {
 
 const BallCanvas = ({ icon }) => {
   return (
-    <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
+    <Canvas
+      frameloop="demand"
+      gl={{ preserveDrawingBuffer: true }}
+      dpr={[1, 2]}
+    >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
         <Ball imgUrl={icon} />

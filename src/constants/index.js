@@ -35,6 +35,7 @@ import {
   colab,
   workholi,
   selfmoti,
+  deepak,
 } from "../assets";
 
 export const navLinks = [
@@ -89,20 +90,12 @@ const technologies = [
     icon: bootstrap,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "FireBase",
     icon: firebaselogo,
   },
   {
     name: "Tensorflow",
     icon: tensorflow,
-  },
-  {
-    name: "Flutter",
-    icon: flutter,
   },
   {
     name: "React JS",
@@ -192,7 +185,7 @@ const testimonials = [
     name: "Dr. Gegard Deepak",
     designation: "Assistant Professor",
     company: "Manipal Academy of Higher Education ",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: deepak,
   },
 ];
 
